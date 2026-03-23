@@ -1,6 +1,6 @@
 # Файл: data/home_data.py
 
-HOME_DATA = {
+HOME_MOCK_DATA = {
     "categories": [
         {"id": 1, "name": "Телевизоры"},
         {"id": 2, "name": "Бытовая техника"},
@@ -10,7 +10,7 @@ HOME_DATA = {
     "banner": {
         "id": 1,
         "title": "Intense steam",
-        "imageUrl": "/static/images/washing_machine.jpg"
+        "imageUrl": "/static/images/banner.jpg"
     },
     "productOfTheDay": {
         "id": 101,
@@ -21,9 +21,9 @@ HOME_DATA = {
         "imageUrl": "/static/images/samsung_ac.jpg"
     },
     "newProducts": [
-        {"id": 201, "title": "Пылесос Tefal Bagless", "price": 20490, "currency": "сом", "rating": 3},
-        {"id": 202, "title": "Пылесос Tefal Bagless", "price": 20490, "currency": "сом", "rating": 4},
-        {"id": 203, "title": "Пылесос Tefal Bagless", "price": 20490, "currency": "сом", "rating": 4},
-        {"id": 204, "title": "Пылесос Tefal Bagless", "price": 20490, "currency": "сом", "rating": 3}
+        {"id": 201, "title": "Пылесос Tefal Bagless", "price": 20490, "currency": "сом", "rating": 3, "imageUrl": "/static/images/tefal1.jpg"},
+        {"id": 202, "title": "Пылесос Tefal Bagless", "price": 20490, "currency": "сом", "rating": 4, "imageUrl": "/static/images/tefal2.jpg"},
+        {"id": 203, "title": "Пылесос Tefal Bagless", "price": 20490, "currency": "сом", "rating": 4, "imageUrl": "/static/images/tefal3.jpg"},
+        {"id": 204, "title": "Пылесос Tefal Bagless", "price": 20490, "currency": "сом", "rating": 3, "imageUrl": "/static/images/tefal4.jpg"}
     ]
 }
